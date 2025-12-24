@@ -1,0 +1,8 @@
+It’s the process by which React updates the UI efficiently.
+When state or props change:
+
+React creates a new Virtual DOM.
+
+Compares it with the old one (Diffing).
+
+Updates only the changed elements in the real DOM.
